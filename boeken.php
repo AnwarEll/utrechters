@@ -78,7 +78,7 @@
      var title = event.title;
      var id = event.id;
      $.ajax({
-      url:"update.php",
+      url:"kalender/update.php",
       type:"POST",
       data:{title:title, start:start, end:end, id:id},
       success:function(){
@@ -95,7 +95,7 @@
      var title = event.title;
      var id = event.id;
      $.ajax({
-      url:"update.php",
+      url:"kalender/update.php",
       type:"POST",
       data:{title:title, start:start, end:end, id:id},
       success:function()
@@ -112,7 +112,7 @@
      {
       var id = event.id;
       $.ajax({
-       url:"delete.php",
+       url:"kalender/delete.php",
        type:"POST",
        data:{id:id},
        success:function()
