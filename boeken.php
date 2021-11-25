@@ -53,7 +53,7 @@
     selectHelper:true,
     select: function(start, end, allDay)
     {
-     var title = prompt("Enter Event Title");
+     var title = prompt("Laat uw naam en telefoonnummer achter s.v.p");
      if(title)
      {
       var start = $.fullCalendar.formatDate(start, "Y-MM-DD HH:mm:ss");
